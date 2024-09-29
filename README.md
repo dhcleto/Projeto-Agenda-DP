@@ -1,4 +1,4 @@
-[![Logo da FECAP](https://github.com/dhcleto/Projeto-Agenda-DP/raw/main/imagens/logo-fecap.png)](https://www.fecap.br/)
+[![FECAP](https://github.com/dhcleto/Projeto-Agenda-DP/raw/main/imagens/fecap.png)](https://www.fecap.br/)
 
 # Projeto Agenda
 
