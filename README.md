@@ -11,7 +11,6 @@ Este projeto consiste em uma aplicação de **agenda** que permite adicionar e g
 
 - **Adicionar atividades** com descrição e horários.
 - **Visualizar** a lista de compromissos agendados.
-- **Editar e remover** atividades conforme necessário.
 - Interface **intuitiva e amigável**.
 
 ## Tecnologias Utilizadas <img src="https://cdn2.iconfinder.com/data/icons/startups/64/technology-innovation-idea-science-process-512.png" width="40" /> 
