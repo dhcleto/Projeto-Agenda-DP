@@ -1,4 +1,8 @@
-[![FECAP](https://github.com/dhcleto/Projeto-Agenda-DP/raw/main/imagens/fecap.png)](https://www.fecap.br/)
+<div align="center">
+  <a href="https://www.fecap.br/">
+    <img src="https://github.com/dhcleto/Projeto-Agenda-DP/blob/main/fecap.png" alt="FECAP">
+  </a>
+</div>
 
 # Projeto Agenda
 
