@@ -13,22 +13,7 @@
 O aplicativo foi projetado para ser intuitivo e fácil de usar, com uma interface simples que permite aos usuários adicionar, visualizar e editar tarefas rapidamente.
 
 
-## 🛠 Estrutura de pastas
-
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+-Raiz<br> |<br> |-->documentos<br>  |-->antigos<br>  |Documentação.docx<br> |-->executáveis<br>  |-->windows<br>  |-->android<br>  |-->HTML<br> |-->imagens<br>  |fecap.png<br> |-->src<br>  |-->Backend<br>  |-->Frontend<br> |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
 
@@ -48,8 +33,8 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>Android:</b>
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+Faça o download do arquivo Agenda.apk em seu dispositivo Android. 
+Após o download, execute o APK e siga as instruções na tela para instalar o aplicativo.
 
 ```sh
 Coloque código do prompt de comnando se for necessário
@@ -57,8 +42,8 @@ Coloque código do prompt de comnando se for necessário
 
 <b>Windows:</b>
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+Não há instalação! Apenas um executável! 
+Encontre o arquivo Agenda.exe na pasta executáveis e execute-o diretamente como qualquer outro programa.
 
 ```sh
 Coloque código do prompt de comnando se for necessário
@@ -66,8 +51,8 @@ Coloque código do prompt de comnando se for necessário
 
 <b>HTML:</b>
 
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+Não há instalação! 
+Encontre o arquivo index.html na pasta executáveis e abra-o como uma página web em seu navegador.
 
 ## 💻 Configuração para Desenvolvimento
 
