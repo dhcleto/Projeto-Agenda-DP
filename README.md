@@ -4,20 +4,14 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Projeto Agenda
 
-## Nome do Grupo
+## Victor Malzone Tonioli & Demétrio Henrique Cleto
 
 ## Descrição
->
+> Este é um aplicativo de agenda desenvolvido em Android Studio, que permite aos usuários adicionar e gerenciar tarefas de maneira personalizada. Com ele, você pode definir o título da tarefa, selecionar o dia, a hora e a data específica para cada evento, proporcionando uma organização prática e eficiente. O projeto visa auxiliar estudantes e profissionais a organizarem suas atividades diárias, garantindo que compromissos importantes não sejam esquecidos.
+O aplicativo foi projetado para ser intuitivo e fácil de usar, com uma interface simples que permite aos usuários adicionar, visualizar e editar tarefas rapidamente.
 
-
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
 
 ## 🛠 Estrutura de pastas
 
