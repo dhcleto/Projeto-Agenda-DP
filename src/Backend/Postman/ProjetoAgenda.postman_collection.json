@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "a3d6cb03-ff25-4eb4-baa8-73f81507f83d",
+		"name": "ProjetoAgenda",
+		"description": "### **ProjetoAgenda - API Overview**\n\nEsta coleção de requisições Postman foi criada para testar as funcionalidades principais da aplicação \"ProjetoAgenda\". Abaixo estão listados os principais endpoints da API e suas funções:\n\n---\n\n#### **1\\. Login**\n\n- **Endpoint**: `/login`\n    \n- **Método**: `POST`\n    \n- **Descrição**: Autentica o usuário com base nas credenciais (email e senha).\n    \n- **Parâmetros**: `email`, `senha`\n    \n\n---\n\n#### **2\\. Registro de Usuário**\n\n- **Endpoint**: `/register`\n    \n- **Método**: `POST`\n    \n- **Descrição**: Cria um novo usuário no sistema.\n    \n- **Parâmetros**: `nome`, `email`, `senha`\n    \n\n---\n\n#### **3\\. Buscar Tarefas do Usuário**\n\n- **Endpoint**: `/tarefas/{userId}`\n    \n- **Método**: `GET`\n    \n- **Descrição**: Retorna a lista de tarefas cadastradas para um usuário específico.\n    \n- **Parâmetro na URL**: `userId`\n    \n\n---\n\n#### **4\\. Buscar Todos os Usuários**\n\n- **Endpoint**: `/usuarios`\n    \n- **Método**: `GET`\n    \n- **Descrição**: Retorna a lista de todos os usuários cadastrados.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38727751"
+	},
+	"item": [
+		{
+			"name": "LoginRequest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"victor@gmail.com\",\r\n  \"senha\": \"123123\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://xh7x6d-3000.csb.app/login",
+					"protocol": "https",
+					"host": [
+						"xh7x6d-3000",
+						"csb",
+						"app"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegisterRequest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"Novo Usuario\",\r\n  \"email\": \"usuario1@gmail.com\",\r\n  \"senha\": \"123123\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://xh7x6d-3000.csb.app/register",
+					"protocol": "https",
+					"host": [
+						"xh7x6d-3000",
+						"csb",
+						"app"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TarefasRequest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"Minha Nova Tarefa\",\r\n  \"descricao\": \"Descrição da Tarefa\",\r\n  \"userId\": 1,\r\n  \"data\": \"04-10-2024\",\r\n  \"hora\": \"12:00\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://xh7x6d-3000.csb.app/tarefas",
+					"protocol": "https",
+					"host": [
+						"xh7x6d-3000",
+						"csb",
+						"app"
+					],
+					"path": [
+						"tarefas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UsuariosRequest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://xh7x6d-3000.csb.app/usuarios",
+					"protocol": "https",
+					"host": [
+						"xh7x6d-3000",
+						"csb",
+						"app"
+					],
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TarefasUserIdRequest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://xh7x6d-3000.csb.app/tarefas/1",
+					"protocol": "https",
+					"host": [
+						"xh7x6d-3000",
+						"csb",
+						"app"
+					],
+					"path": [
+						"tarefas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
