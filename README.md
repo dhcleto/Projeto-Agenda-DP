@@ -6,7 +6,7 @@
 
 # Projeto Agenda
 
-## Victor Malzone Tonioli & Demétrio Henrique Cleto
+## Demetrio Henrique Souza Cleto  &  Victor Malzone Tonioli
 
 ## Descrição
 > Este é um aplicativo de agenda desenvolvido em Android Studio, que permite aos usuários adicionar e gerenciar tarefas de maneira personalizada. Com ele, você pode definir o título da tarefa, selecionar o dia, a hora e a data específica para cada evento, proporcionando uma organização prática e eficiente. O projeto visa auxiliar estudantes e profissionais a organizarem suas atividades diárias, garantindo que compromissos importantes não sejam esquecidos.
