@@ -73,7 +73,6 @@ Encontre o arquivo index.html na pasta executáveis e abra-o como uma página we
     <li><strong>Retrofit (2.9.0):</strong> Para chamadas de API REST.</li>
     <li><strong>Gson Converter (2.9.0):</strong> Para conversão de objetos JSON.</li>
     <li><strong>OkHttp (4.9.3):</strong> Cliente HTTP eficiente.</li>
-    <li><strong>Firebase BOM (33.3.0):</strong> Integração com serviços do Firebase.</li>
     <li><strong>WorkManager (2.8.1):</strong> Gerenciamento de tarefas em background.</li>
     <li><strong>Material Design (1.12.0):</strong> Componentes visuais modernos.</li>
     <li><strong>AppCompat (1.6.1):</strong> Suporte à compatibilidade de versões anteriores.</li>
