@@ -13,21 +13,25 @@
 O aplicativo foi projetado para ser intuitivo e fácil de usar, com uma interface simples que permite aos usuários adicionar, visualizar e editar tarefas rapidamente.
 
 
--Raiz<br> |<br> |-->documentos<br>  |-->antigos<br>  |Documentação.docx<br> |-->executáveis<br>  |-->windows<br>  |-->android<br>  |-->HTML<br> |-->imagens<br>  |fecap.png<br> |-->src<br>  |-->Backend<br>  |-->Frontend<br> |readme.md<br>
-
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
+- Projeto-Agenda-DP<br>
+|<br>
+|--> Sua_Agenda_Preferida<br>
+|  |--> Política_Privacidade_Sua_Agenda_Preferida_2024.pdf<br>
+|  |--> Running Devices - ProjetoAgenda2024.mp4<br>
+|  |--> Sua_Agenda_Preferida.rtf<br>
+|<br>
+|--> imagens<br>
+|  |--> icone.jpg<br>
+|  |--> tela_celular_1.jpg<br>
+|  |--> tela_celular_2.jpg<br>
+|  |--> tela_celular_3.jpg<br>
+|  |--> tela_celular_4.jpg<br>
+|<br>
+|--> src<br>
+|  |--> Backend<br>
+|  |--> FrontendAgenda<br>
+|<br>
+|--> README.md<br>
 
 ## 🛠 Instalação
 
