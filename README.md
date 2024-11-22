@@ -58,19 +58,30 @@ Coloque código do prompt de comnando se for necessário
 Não há instalação! 
 Encontre o arquivo index.html na pasta executáveis e abra-o como uma página web em seu navegador.
 
-## 💻 Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
+<div class="config-dev">
+  <h2>🖥️ Configuração para Desenvolvimento</h2>
+  <p>
+    Ferramentas necessárias: Para configurar e rodar o projeto, você precisará das seguintes ferramentas:
+  </p>
+  <ul>
+    <li>Android Studio 7.4.2 ou superior</li>
+    <li>Java Development Kit (JDK) 8 ou superior</li>
+    <li>Gradle (já incluído no Android Studio)</li>
+  </ul>
+  <p>Dependências do Projeto:</p>
+  <ul>
+    <li><strong>Retrofit (2.9.0):</strong> Para chamadas de API REST.</li>
+    <li><strong>Gson Converter (2.9.0):</strong> Para conversão de objetos JSON.</li>
+    <li><strong>OkHttp (4.9.3):</strong> Cliente HTTP eficiente.</li>
+    <li><strong>Firebase BOM (33.3.0):</strong> Integração com serviços do Firebase.</li>
+    <li><strong>WorkManager (2.8.1):</strong> Gerenciamento de tarefas em background.</li>
+    <li><strong>Material Design (1.12.0):</strong> Componentes visuais modernos.</li>
+    <li><strong>AppCompat (1.6.1):</strong> Suporte à compatibilidade de versões anteriores.</li>
+    <li><strong>ConstraintLayout (2.1.4):</strong> Para layouts responsivos.</li>
+    <li><strong>jBCrypt (0.4):</strong> Para hash de senhas.</li>
+    <li><strong>JavaMail (1.6.2):</strong> Para envio de e-mails no Android.</li>
+  </ul>
+</div>
 
 ## 📋 Licença/License
 
