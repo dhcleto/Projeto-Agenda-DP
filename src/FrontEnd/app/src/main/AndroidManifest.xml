@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissão para acesso à internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Permissão para verificar estado da rede (opcional para maior controle) -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjetoAgendaFirebase"
+        tools:targetApi="31">
+
+        <!-- AdicionarActivity para criar e enviar tarefas -->
+        <activity
+            android:name=".AdicionarActivity"
+            android:exported="true" />
+
+        <!-- FormCadastro para registro de usuários -->
+        <activity
+            android:name=".FormCadastro"
+            android:exported="true" />
+
+        <!-- MainActivity para a tela principal -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- FormLogin como ponto de entrada -->
+        <activity
+            android:name=".FormLogin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

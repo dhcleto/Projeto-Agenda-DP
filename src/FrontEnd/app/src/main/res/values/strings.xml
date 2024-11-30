@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjetoAgendaFirebase</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="title_cadastro">Cadastre-se</string>
+
+    <!-- Adicione estas linhas -->
+    <string name="selecione_repeticao">Selecione a frequência de repetição</string>
+    <string-array name="repeticao_opcoes">
+        <item>Nenhuma</item>
+        <item>Diária</item>
+        <item>Semanal</item>
+        <item>Mensal</item>
+    </string-array>
+</resources>
